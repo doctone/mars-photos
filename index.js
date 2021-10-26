@@ -19,13 +19,13 @@ function showData(data){
     data.forEach(photo => {
         results.innerHTML += `
         <div class="card col-3 m-2" style="width: 15rem;">
-        <a href="${photo.img_src}"><img src="${photo.img_src}" class="card-img-top"></a>
+        <a href="${photo.img_src}" target="_blank"><img src="${photo.img_src}" class="card-img-top"></a>
             <div class="card-body">
                 <h5 class="card-title">${photo.camera.full_name}</h5>
                 <p>status: ${photo.rover.status}</p>
                 <p class="card-text">Photo taken: <br> ${photo.earth_date}.</p>
-                <p> sol: ${photo.sol} </p>
-                <a href="#" class="btn btn-dark">Download</a>
+                <p> sol ${photo.sol} </p>
+                <a href="${photo.img_src}" class="btn btn-dark" download target="_blank">Download</a>
             </div>
         </div>`
     })
