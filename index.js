@@ -23,7 +23,7 @@ function showData(data){
             <div class="card-body">
                 <h5 class="card-title">${photo.camera.full_name}</h5>
                 <p>status: ${photo.rover.status}</p>
-                <p class="card-text">Photo taken: ${photo.earth_date}.</p>
+                <p class="card-text">Photo taken: <br> ${photo.earth_date}.</p>
                 <p> sol: ${photo.sol} </p>
                 <a href="#" class="btn btn-dark">Download</a>
             </div>
