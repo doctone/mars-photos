@@ -1,0 +1,9 @@
+.results {
+    display: flex;
+    justify-content: center;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
