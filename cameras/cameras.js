@@ -14,7 +14,7 @@ buttons.forEach(button => {
 function showData(data){
     results.innerHTML = `
     <div class="card" style="width: 30rem;">
-        <img src="https://mars.nasa.gov/layout/mars2020/images/PIA23764-RoverNamePlateonMars-web.jpg" class="card-img-top" alt="...">
+        <img src="/Users/samjames/code/mars-photos/cameras/img/curiosity.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">${data.name}</h5>
             <p class="card-text">total photos: ${data.total_photos}</p>
